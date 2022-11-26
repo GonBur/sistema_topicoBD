@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1F2C60;
+    opacity: .6;
+    color: #E7F2FF;
+}
+
+section{
+    display: flex;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.img{
+    width: 20%;
+}
+img{
+    width: 50%;
+}
+.title{
+    width: 80%;
+    
+}
+h1{
+    font-size: 2.8vw;
+}
+
+/*contenido*/
+h2{
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 1%;
+    color: #1F2C60;
+}
+
+form{
+    width: 100%;
+    
+}
+.primer_bloque{
+    width: 48%;
+    float: left; 
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.segundo_bloque{
+    width: 48%;
+    float: right;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+label{
+    display: block;
+    margin: 2%;
+    width: 90%;
+}
+
+span{
+    text-align: left;
+    font-size: 2.5vw;
+    margin-left: 10%;
+}
+input{
+    width: 48%;
+    height: 2vw;
+    font-size: 2vw;
+    text-align: center;
+    float: right;
+    margin: 1%;
+}
+
+.enviar{
+    width: 20%;
+    height: 3vw;
+    float: none;
+    font-size: 2.5vw;
+    margin-left: -8%;
+    background-color: #293b80;
+    opacity: .6;
+    color: white;
+    border-radius: .5vw;
+}
+.enviar:hover{
+    background-color: rgb(127, 163, 255);
+    color: black;
+}
+
+hr{
+    background-color: #1F2C60;
+    opacity: .6;
+    padding: .9%;
+}
